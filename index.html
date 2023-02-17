@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.png" rel="icon" />
+  <title>My Quiz | Documentation</title>
+  <meta name="description" content="My Quiz - Android Application">
+  <meta name="author" content="kulmiss.com">
+
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+
+  <!-- Here goes your Colors Css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/color-cyan.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+=============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header
+  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg bg-dark navbar-text-light">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span
+              class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="My Quiz">
+            <img src="assets/images/title.png" alt="My Quiz" /> </a>
+
+          <!-- Logo End -->
+
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+  ============================ -->
+    <div id="content" role="main">
+
+      <!-- Sidebar Navigation
+	============================ -->
+      <div class="idocs-navigation bg-dark docs-navigation-dark">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#idocs_start">Introduction</a>
+
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_layout">Application Setup</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#idocs_setup">Setup Android Studio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#howToRunTheProject">Run The Project</a></li>
+              <li class="nav-item"><a class="nav-link" href="#howToChangePackageName">Package Name</a></li>
+              <li class="nav-item"><a class="nav-link" href="#howToChangeName">Application Name</a></li>
+              <li class="nav-item"><a class="nav-link" href="#howToChangeVersion">Application Version</a></li>
+              <li class="nav-item"><a class="nav-link" href="#howToChangeColors">Application Colors</a></li>
+              <li class="nav-item"><a class="nav-link" href="#howToChangeIcon">Application Icon</a></li>
+              <li class="nav-item"><a class="nav-link" href="#howToChangeAnimations">Animations & Sounds</a></li>
+              <li class="nav-item"><a class="nav-link" href="#addQuizQuestions">Add Quiz Questions</a></li>
+              <li class="nav-item"><a class="nav-link" href="#SetupAds">Setup Admob Ads</a></li>
+              <li class="nav-item"><a class="nav-link" href="#SetupPushNotifications">Push Notifications</a></li>
+              <li class="nav-item"><a class="nav-link" href="#publish">Publish to Play Store</a></li>
+              <li class="nav-item"><a class="nav-link" href="#important">Important Changes</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#idocs_faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_support">Support</a></li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_feedback">You Feadback</a></li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_contact_us">Contact Us</a>
+
+          </li>
+        </ul>
+      </div>
+
+      <!-- Docs Content
+	============================ -->
+      <div class="idocs-content">
+        <div class="container">
+
+          <!-- Getting Started
+		============================ -->
+          <section id="idocs_start">
+            <h1>Documentation</h1>
+            <h2>My Quiz - Android Application</h2>
+            <p class="lead">Thank you. It really means a lot and It's our pleasure to serve
+              top-notch service to you. </br>
+              Thank you so much for choosing
+              <a href="https://codecanyon.net/user/kulmisstudio">Kulmis Studio</a>.
+              If you have trouble with the code and
+              documentation please contact to our Support Team
+              <a href="#idocs_contact_us">Here</a>.
+            </p>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong>Version:</strong> 1.10</li>
+                  <li><strong>Author:</strong> <a href="https://codecanyon.net/user/kulmisstudio" target="_blank">Kulmis
+                      Studio</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong class="font-weight-700">Created:</strong> 14 November, 2022</li>
+                  <li><strong>Update:</strong> 14 November 2022</li>
+                </ul>
+              </div>
+            </div>
+            <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please
+              feel free to email via <a target="_blank" href="https://codecanyon.net/user/kulmisstudio">Item Support
+                Page</a>.</p>
+
+          </section>
+
+          <hr class="divider">
+
+
+          <!-- My Quiz Application
+		============================ -->
+          <section id="idocs_layout">
+            <h2>My Quiz Application</h2>
+            <p class="lead mb-5">Welcome to how to setup your new application, please follow the steps below.</p>
+          </section>
+
+
+          <!-- How to setup Android Studio
+		============================ -->
+          <section id="idocs_setup">
+            <h4>How to setup Android Studio</h4>
+            <p>Visit android official website :
+              <a href="https://developer.android.com/studio">https://developer.android.com/studio</a> for full install
+              guide.
+            </p>
+
+            <p>If you prefer video tutorials, we recommend this playlist for the full installation process
+
+              <a href="https://www.youtube.com/watch?v=EknEIzswvC0&list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E">Youtube
+                Playlist</a>
+            </p>
+
+
+            <hr class="divider">
+
+
+            <!-- How to run this project
+		      ============================ -->
+            <section id="howToRunTheProject">
+              <h4>How to run this project</h4>
+              <ol>
+                <li>
+                  Unzip the downloaded code. After unzipping you will have My Quiz - Android Code zip folder.
+                  <br> Unzip My Quiz - Android Code folder and open it in
+                  Android Studio or intellij
+                </li>
+                <li>
+                  Open Android Studio and select as Open.
+                  </br><img src="assets/images/app/openproject.png" alt="My Quiz" width="1100"></br>
+                </li>
+                <li>
+                  Select the Unzipped Folder and choose My Quiz - Android Code Folder.
+
+                </li>
+
+              </ol>
+              <hr>
+            </section>
+
+
+            <!-- How to change package name
+		      ============================ -->
+            <section id="howToChangePackageName">
+              <h4>How to change package name</h4>
+              <ol>
+                <li>
+                  Change package name for android app <br>
+                  Just navigate the gear icon at the top and click True Appearance -> Compact Middle Packages.
+                  </br><img src="assets/images/app/changepackage1.png" alt="My Quiz" width="1100"></br>
+                </li>
+                <li>
+                  Right click th e package name you want to edit and click Refactor -> Rename.
+                  </br><img src="assets/images/app/changepackage2.png" alt="My Quiz" width="1100"></br>
+                </li>
+                <li>
+                  Click In Whole Project.
+                  </br><img src="assets/images/app/changepackage3.png" alt="My Quiz" width="1100"></br>
+                </li>
+                <li>
+                  Change the Package name and select All Places in the Scope.
+                  </br><img src="assets/images/app/changepackage4.png" alt="My Quiz" width="1100"></br>
+                </li>
+                <li>
+                  Click Do Refactor at the Bottom Left of the screen.
+                  </br> <img src="assets/images/app/changepackage5.png" alt="My Quiz" width="1100"></br>
+                </li>
+                <li>
+                  Once you have changed the package name in the project files, Now you will do two more
+                  steps to change Package name of your android application.</br></br>
+
+                  Select Build Gradle (App Module) in the Gradle Script & Change the package name 'com.kulmis.myquiz' to your new package name.
+                  </br><img src="assets/images/app/changepackage7.png" alt="My Quiz" width="1100"></br>
+                </li>
+              
+                <li>
+                  One more time we have to modify our Manifests file.</br>
+                  And Change the package name 'com.kulmis.myquiz' to your new package name.
+                </br> <img src="assets/images/app/changepackage9.png" alt="My Quiz" width="1100"></br>
+                </li>
+              
+              </ol>
+              <hr>
+            </section>
+
+
+
+
+            <!-- How to change Application name
+		      ============================ -->
+
+            <section id="howToChangeName">
+              <h4>How to change Application name</h4>
+              <ol>
+                <li>
+                  Change application name for android app <br>
+                  Just to res -> values -> string.xml and change the 'My Quiz' to your new app name.
+                  </br><img src="assets/images/app/changename1.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+              </ol>
+              <hr>
+            </section>
+
+
+
+
+            <!-- How to change Application Version
+		      ============================ -->
+
+            <section id="howToChangeVersion">
+              <h4>How to change Application Version</h4>
+              <ol>
+                <li>
+                  Change application version for android app <br>
+                  Just navigate to Build Gradle (App Module) and change the versionName & versionCode to your new
+                  Version name & Version Code.
+                  </br><img src="assets/images/app/changeversion1.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+              </ol>
+              <hr>
+            </section>
+
+
+
+            <!-- How to change Application Colors
+		      ============================ -->
+
+            <section id="howToChangeColors">
+              <h4>How to change Application Colors</h4>
+              <ol>
+                <li>
+                  Change application Colors for android app <br>
+                  Just navigate to res -> values -> colors.xml and change the application colors.
+                  </br><img src="assets/images/app/changecolors1.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+              </ol>
+              <hr>
+            </section>
+
+
+
+
+            <!-- How to change Application Icon
+		      ============================ -->
+
+            <section id="howToChangeIcon">
+              <h4>How to change Application Icon</h4>
+              <ol>
+                <li>
+                  Change application Icon for android app <br>
+                  Right click the App directory -> New -> Image Asset.
+                  </br><img src="assets/images/app/changeicon1.png" alt="My Quiz" width="1100"></br>
+                </li>
+                <li>
+                  Change to your new App Launcher Icon and Click Next.</br>
+                  </br><img src="assets/images/app/changeicon2.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+              </ol>
+              <hr>
+            </section>
+
+
+            <!-- How to change Application Animations & Sound
+        ============================ -->
+
+        <section id="howToChangeAnimations">
+          <h4>How to change Animation & Sound Files</h4>
+          <ol>
+            <li>
+              Change application Animation & Sound Files for android app <br>
+              To change the Animation & Sound files navigate to res -> raw and change the application animation &
+              sound files there.
+              </br><img src="assets/images/app/animations1.png" alt="My Quiz" width="1100"></br></br>
+            </li>
+
+<<<<<<< HEAD
+            <div class="alert alert-warning mb-4">
+              <span class="badge badge-danger text-uppercase">Bonus: </span>
+              The Animations used in this app are available on<a href="https://lottiefiles.com/"> LottieFiles
+                Official website</a>
+            </div>
+=======
+                <div class="alert alert-warning mb-4">
+                  <span class="badge badge-danger text-uppercase">Bonus: </span>
+                  The Animations used in this app are available on<a href="https://lottiefiles.com/"> LottieFiles
+                    Official website</a>
+                </div>
+>>>>>>> 7234f2d1945118193841c333964c2263c00fdc2c
+
+          </ol>
+          <hr>
+        </section>
+
+
+
+            <!-- How to add Quiz Questions
+        ============================ -->
+
+        <section id="addQuizQuestions">
+          <h4>How to Add Quiz Questions</h4>
+          <ol>
+            <li>
+              It's even much easier to add quiz questions to the app.<br>
+              Just navigate to helper -> DBHelper 
+              <br><img src="assets/images/app/addquiz1.png" alt="My Quiz" width="1100"></br></br>
+            </li>
+
+            <div class="alert alert-warning mb-4">
+              <span class="badge badge-danger text-uppercase">WARNING: </span>
+              Do not delete the last line of the database helper, Or the app will not work as expected!
+            </div>
+              <img src="assets/images/app/addquiz2.png" alt="My Quiz" width="1100"></br></br>
+
+          </ol>
+          <hr>
+        </section>
+
+
+            <!-- Setup Ads
+		      ============================ -->
+
+            <section id="SetupAds">
+              <h4>How to Setup Application Admob Ads</h4>
+              <ol>
+                <li>
+                  Setup Application Ads using Admob<br>
+                  Before we update our application's Admob field let us create Ad Units in <a
+                    href="https://apps.admob.com/">Admob Dashboard</a></br></br>
+
+                  Click 'ADD APP' in Admob Dashboard.
+                  </br><img src="assets/images/app/admob1.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                <li>
+                  Choose 'Android' in the Platform, and 'No' in 'Is the app listed on a supported app store?'.
+                  </br><img src="assets/images/app/admob2.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                <li>
+                  Add your App name.
+                  </br><img src="assets/images/app/admob3.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                <li>
+                  You have succesfully Registerd you app on Admob.
+                  </br><img src="assets/images/app/admob4.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                <li>
+                  Click 'ADD AD UNIT' to generate new Ad Units.
+                  </br><img src="assets/images/app/admob5.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                <li>
+                  Choose Banner Ad for this Example, and click 'Select'.
+                  </br><img src="assets/images/app/admob6.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                <li>
+                  Name your Banner Ad and click 'Create ad unit'.
+                  </br><img src="assets/images/app/admob7.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+
+                <li>
+                  Ad Unit Sucessfully created
+                  </br><img src="assets/images/app/admob8.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                <li>
+                  Now Copy your App ID & Ad Unit ID and Past them in your project by navigating to </br>
+                  res -> values -> string.xml
+                  </br><img src="assets/images/app/admob9.png" alt="My Quiz" width="1100"></br>
+                </li>
+
+                </br>
+                <li>
+                  <div class="alert alert-warning mb-4">
+                    <span class="badge badge-danger text-uppercase">Note:</span> </br>
+                    Please don't use your Reals Ad Units if you are testing the app or using debbuging, insteade use
+                    the Dummy Ads which google supports, Read more on
+                    <a href="https://support.google.com/admob/answer/48182?hl=en&ref_topic=9756841"> Admob Privacy &
+                      Policy Site</a>
+                  </div>
+                </li>
+                </br>
+
+                </li>
+
+              </ol>
+              <hr>
+            </section>
+
+
+            <!-- Setup Push Notifications
+        ============================ -->
+
+            <section id="SetupPushNotifications">
+              <h4>Setup Push Notifications</h4>
+              <ol>
+                <li>
+                  We will use <a href="https://app.onesignal.com/apps">Onesignal</a> & <a
+                    href="https://console.firebase.google.com/u/1/">Firebase</a>
+                  to send push notifications diract to the Application.<br>
+                  First we will setup our Firebase Account, so click this <a
+                    href="https://console.firebase.google.com/u/1/">link</a> to start.
+                  </br><img src="assets/images/app/signal1.png" alt="My Quiz" width="1100"></br>
+                  </br> <img src="assets/images/app/signal2.png" alt="My Quiz" width="1100"></br>
+                  </br><img src="assets/images/app/signal3.png" alt="My Quiz" width="1100"></br>
+                </li></br>
+
+                <li>
+                  Setup the google-services.json file.
+                </br><img src="assets/images/app/json1.png" alt="My Quiz" width="1100"></br>
+              </br><img src="assets/images/app/json3.png" alt="My Quiz" width="1100"></br>
+            </br><img src="assets/images/app/json2.png" alt="My Quiz" width="1100"></br>
+                </li></br>
+
+                <li>
+                  Now let's go and setup a new <a href="https://app.onesignal.com/apps">Onesignal</a> account.
+                  </br><img src="assets/images/app/signal.png" alt="My Quiz" width="1100"></br>
+                  </br><img src="assets/images/app/signal0.png" alt="My Quiz" width="1100"></br>
+                </li></br>
+
+                <li>
+                  Now let's go back to our <a href="https://console.firebase.google.com/u/1/">Firebase Project</a> and
+                  copy the Server key & the Sender ID.
+                  </br><img src="assets/images/app/signal4.png" alt="My Quiz" width="1100"></br>
+                  </br><img src="assets/images/app/signal5.png" alt="My Quiz" width="1100"></br>
+                  </br><img src="assets/images/app/signal6.png" alt="My Quiz" width="1100"></br>
+                </li></br>
+
+                <li>
+                  Paste in <a href="https://app.onesignal.com/apps">Onesignal</a>
+                  </br> <img src="assets/images/app/signal7.png" alt="My Quiz" width="1100"></br>
+                  </br><img src="assets/images/app/signal8.png" alt="My Quiz" width="1100"></br>
+                </li></br>
+
+
+                <li>
+                  Now Copy your Onesignal App ID and Paste into the Application</br>
+                  java -> [package_name] -> helper -> Constant.java
+                  </br> <img src="assets/images/app/signal9.png" alt="My Quiz" width="1100"></br>
+                  </br> <img src="assets/images/app/signal10.png" alt="My Quiz" width="1100"></br>
+                </li></br>
+
+              </ol>
+              <hr>
+            </section>
+
+
+
+
+            <!-- Publish to Play Store
+        ============================ -->
+
+            <section id="publish">
+              <h4>How to Publish your Application</h4>
+              <ol>
+                <li>First you need to get Signed APK / App bundle from android studio.<br>
+                  To do so please visit this tutorial step by step to get your signed App bundle
+                  <a
+                    href="https://code.tutsplus.com/tutorials/how-to-generate-apk-and-signed-apk-files-in-android-studio--cms-37927">
+                    How to generate Signed APK</a> for full
+                  guide.
+                </li>
+
+                <li>After you have generated your Signed APK / App bundle it's time to Publish your app to the Play Store.<br>
+                  To do so please visit this link 
+
+                  <a href="https://www.geeksforgeeks.org/how-to-publish-your-android-app-on-google-play-store/">
+                    How to Publish Your Android App on Google Play Store?</a>
+                </li>
+
+              </ol>
+              <hr>
+            </section>
+
+
+
+
+
+            <!-- Important Changes
+        ============================ -->
+
+            <section id="important">
+              <h4>Important Changes</h4>
+              <ol>
+                <li>
+                  There are a few other things to consider.</br>
+                  Navigate to helper -> Constant.java and update the boxed fields.</br>
+
+                  </br><img src="assets/images/app/constant1.png" alt="My Quiz" width="1100"></br>
+                </li></br></br>
+
+                <div class="alert alert-warning mb-4">
+                  <span class="badge badge-danger text-uppercase">Note:</span> </br>
+                  Please don't change the [DON'T CHANGE BELOW FIELDS] part, it my cause your app not to work probably.
+                </div>
+              </ol>
+              <hr>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- FAQ
+		============================ -->
+            <section id="idocs_faq">
+              <h2>FAQ</h2>
+              <p class="text-4">A FAQ is a list of frequently asked questions (FAQs) and answers on a particular topic.
+              </p>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="accordion accordion-alterate arrow-right" id="popularTopics">
+
+                    <div class="card">
+                      <div class="card-header" id="heading2">
+                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2"
+                            aria-expanded="false" aria-controls="collapse2">Will i get the future updates of the
+                            application?</a> </h5>
+                      </div>
+                      <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
+                        <div class="card-body"> Yes, you will receive our new update of the project with out extra
+                          payment. </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="heading1">
+                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1"
+                            aria-expanded="false" aria-controls="collapse1">Do you work as a Freelancer?</a> </h5>
+                      </div>
+                      <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
+                        <div class="card-body"> Yes we do work as a freelancer, and we can do your future applications
+                          done!.</div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="heading4">
+                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse4"
+                            aria-expanded="false" aria-controls="collapse4">Is the app ready to Publish?</a> </h5>
+                      </div>
+                      <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#popularTopics">
+                        <div class="card-body"> Yes, the app is ready to be published on Play Store.</div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="heading3">
+                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3"
+                            aria-expanded="false" aria-controls="collapse3">How much will cost me to reskin the
+                            project?</a> </h5>
+                      </div>
+                      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                        <div class="card-body">We do reskin this and other projects, for this project particularly it
+                          may cost you $15, From reskin to Live Publish. </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        </section>
+
+        <hr class="divider">
+
+
+
+        <!-- Support
+		============================ -->
+        <section id="idocs_support">
+          <h2>Support</h2>
+          <p>If this documentation doesn't answer your questions, So, Please send us Email via <a
+              class="btn btn-primary" target="_blank" href="https://codecanyon.net/user/kulmisstudio#contact">Item
+              Support Page</a></p>
+          <p> We are located in GMT +3:00 time zone and we answer all questions within 12-24 hours in weekdays. In
+            some rare cases the waiting time can be to 48 hours. (except holiday seasons which might take longer).
+          </p>
+          <div class="alert alert-warning mb-4"><span class="badge badge-danger text-uppercase">Note:</span> While
+            we
+            aim to provide the best support possible, please keep in mind that it only extends to verified buyers
+            and
+            only to issues related to our application like bugs and errors. Custom modifications or third party
+            module
+            implementations are not included.</div>
+          <h4>Don’t forget to Rate this template
+            <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+              class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+              class="fas fa-star text-warning"></i>
+          </h4>
+          <div class="alert alert-success">
+            Please Add your Review (Opinion) for Our Application. It would be a great support for us.<br>
+            Go to your <strong>Codecanyon Profile</strong> > <strong>Downloads Tab</strong> > & then You can Rate &
+            Review for our Application.<br>
+            Thank You.
+          </div>
+        </section>
+
+        <hr class="divider">
+
+
+        <!-- Your Feedback
+		============================ -->
+        <section id="idocs_feedback">
+          <h2>Your Feedback</h2>
+          <p>Dear valuable customer, Thank you very much for choosing our product. It's our pleasure to serve
+            top-notch service to you.
+            Please give us your honest feedback that will help us to make a more strong and reliable product by
+            click here
+            <a href="https://codecanyon.net/user/kulmisstudio">Rate Us</a>. Thank you very much.
+
+          </p>
+
+        </section>
+
+        <hr class="divider">
+
+
+
+        <!-- Contact Us
+		============================ -->
+
+        <section id="idocs_contact_us">
+          <h2>Contact Us</h2>
+          <p class="text-4">See what's new added, changed, fixed, improved or updated in the latest versions. </p>
+          <p class="alert alert-info mb-5"> For Future Updates Follow Us <a target="_blank"
+              href="https://codecanyon.net/user/kulmisstudio">@codecanyon</a> / <a target="_blank"
+              href="https://www.facebook.com/kulmisstudio">@facebook</a> / <a target="_blank"
+              href="https://join.skype.com/invite/HTqn8cSR89In">@skype</a>
+          </p>
+
+
+          <p>WRTeam has creative and dedicated group of developers who are mastered in Apps Developments and Web
+            Application Development with
+            a niche in delivering quality solutions to customers across the globe. Contact us today to find out how
+            we
+            can help you or for freelance work.</br></br>
+
+            <!-- Visit Us : <a href="https://www.kulmiss.com">https://www.kulmiss.com</a></br></br> -->
+
+            Mail Us : info@kulmiss.com</br></br>
+
+            Thank you very much.</p>
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Content end -->
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
